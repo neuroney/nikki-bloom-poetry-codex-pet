@@ -100,8 +100,6 @@ Restart Codex and select **Nikki Bloom Poetry** from the custom pet list.
 │   ├── spritesheet.webp
 │   ├── spritesheet.png
 │   └── validation.json
-├── docs/
-│   └── sources-manifest.json
 ├── LICENSE
 ├── NOTICE.md
 ├── README.md
@@ -123,7 +121,6 @@ Codex uses fixed frame counts per atlas row, so the final atlas fills each row a
 
 ## Credits and License
 
-- Outfit naming and cross-game naming notes are recorded in [docs/sources-manifest.json](docs/sources-manifest.json).
 - This repository's original packaging, documentation, and metadata are released under the [MIT License](LICENSE).
 - Nikki, *Shining Nikki*, and related official designs belong to their respective rights holders.
 - This repository does not redistribute official splash art; it only includes the prepared Codex pet package and preview assets.

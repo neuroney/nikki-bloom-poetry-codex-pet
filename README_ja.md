@@ -68,7 +68,6 @@ Codex を再起動し、カスタムペット一覧から **Nikki Bloom Poetry**
 
 ## クレジット
 
-- 衣装名とクロスゲームでの名称に関する参照は [docs/sources-manifest.json](docs/sources-manifest.json) に記録しています。
 - このリポジトリ独自のパッケージング、ドキュメント、メタデータは [MIT License](LICENSE) で公開されています。
 - Nikki、『Shining Nikki』および関連する公式デザインは、それぞれの権利者に帰属します。
 - このリポジトリは公式イラストを再配布せず、Codex ペットパッケージとプレビュー素材のみを含みます。
