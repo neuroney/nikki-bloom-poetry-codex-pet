@@ -4,7 +4,7 @@
   <h1>Nikki Bloom Codex Pet</h1>
 
   <p>
-    A chibi Nikki custom pet for the Codex desktop app, inspired by Nikki from <em>Shining Nikki</em> wearing her classic <em>Bloom Poetry</em> outfit, packed into Codex's fixed 8x9 pet atlas format.
+    A Q-style 3D Nikki custom pet for the Codex desktop app, inspired by Nikki from <em>Shining Nikki</em> wearing her classic <em>Bloom Poetry</em> outfit, packed into Codex's fixed 8x9 pet atlas format.
   </p>
 
   <p>
@@ -19,10 +19,10 @@
 
   <p>
     <a href="#installation"><img src="https://img.shields.io/badge/Codex-Custom%20Pet-111827?style=flat-square" alt="Codex Custom Pet"></a>
-    <a href="#preview"><img src="https://img.shields.io/badge/Style-Chibi%203D%20Toy-ff8fb3?style=flat-square" alt="Chibi 3D Toy Style"></a>
+    <a href="#preview"><img src="https://img.shields.io/badge/Style-Q--Style%203D-ff8fb3?style=flat-square" alt="Q Style 3D"></a>
     <img src="https://img.shields.io/badge/Atlas-8x9%20%7C%201536x1872-38bdf8?style=flat-square" alt="Atlas 8x9 1536x1872">
     <img src="https://img.shields.io/badge/States-9-8b5cf6?style=flat-square" alt="9 states">
-    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT%20%2B%20Notice-22c55e?style=flat-square" alt="MIT plus notice"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-22c55e?style=flat-square" alt="MIT License"></a>
   </p>
 </div>
 
@@ -48,7 +48,7 @@
 
 ## Features
 
-- Chibi 3D toy style with Nikki's pink twin braids, white beret, gentle eyes, and soft heroine charm.
+- Q-style 3D character with Nikki's pink twin braids, white beret, gentle eyes, and soft heroine charm.
 - Based on the *Bloom Poetry* outfit: pink plaid dress, burgundy bow, lace trim, white socks and shoes, and small floral details.
 - Codex-ready atlas: `1536x1872`, 8 columns x 9 rows, `192x208` cells.
 - Includes all 9 Codex states: `idle`, `running-right`, `running-left`, `waving`, `jumping`, `failed`, `waiting`, `running`, and `review`.
@@ -123,7 +123,7 @@ Codex uses fixed frame counts per atlas row, so the final atlas fills each row a
 
 ## Credits and License
 
-- Outfit naming reference: [Shining Nikki Wiki: Bloom Poetry](https://shining-nikki.fandom.com/wiki/Bloom_Poetry), which records `诗意绽放` as `Bloom Poetry` in *Shining Nikki*.
-- [Love Nikki Wiki: Bloom of Poetry](https://lovenikki.fandom.com/wiki/Bloom_of_Poetry) records the cross-game name `Bloom of Poetry`; this repository uses the *Shining Nikki* name `Bloom Poetry`.
+- Outfit naming and cross-game naming notes are recorded in [docs/sources-manifest.json](docs/sources-manifest.json).
+- This repository's original packaging, documentation, and metadata are released under the [MIT License](LICENSE).
 - Nikki, *Shining Nikki*, and related official designs belong to their respective rights holders.
 - This repository does not redistribute official splash art; it only includes the prepared Codex pet package and preview assets.

@@ -38,7 +38,7 @@
 
 ## 特徴
 
-- ピンクのツインブレイド、白いベレー帽、やさしい瞳を持つ Q 版 3D トイ風の Nikki。
+- ピンクのツインブレイド、白いベレー帽、やさしい瞳を持つ Q 版 3D 風の Nikki。
 - *Bloom Poetry* のピンクチェックドレス、リボン、レース、花のディテールを小さな Codex ペットとして読みやすく整理。
 - Codex 仕様: `1536x1872`、8 列 x 9 行、1 コマ `192x208`。
 - `idle`、`running-right`、`running-left`、`waving`、`jumping`、`failed`、`waiting`、`running`、`review` の 9 状態を収録。
@@ -68,6 +68,7 @@ Codex を再起動し、カスタムペット一覧から **Nikki Bloom** を選
 
 ## クレジット
 
-- 衣装名の参照: [Shining Nikki Wiki: Bloom Poetry](https://shining-nikki.fandom.com/wiki/Bloom_Poetry)。
+- 衣装名とクロスゲームでの名称に関する参照は [docs/sources-manifest.json](docs/sources-manifest.json) に記録しています。
+- このリポジトリ独自のパッケージング、ドキュメント、メタデータは [MIT License](LICENSE) で公開されています。
 - Nikki、『Shining Nikki』および関連する公式デザインは、それぞれの権利者に帰属します。
 - このリポジトリは公式イラストを再配布せず、Codex ペットパッケージとプレビュー素材のみを含みます。
