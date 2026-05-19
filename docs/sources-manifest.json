@@ -1,0 +1,103 @@
+{
+  "package_id": "nikki-bloom",
+  "display_name": "Nikki Bloom",
+  "version": "1.0.0",
+  "character": {
+    "name": "Nikki",
+    "chinese_name": "暖暖",
+    "source_title": "Shining Nikki",
+    "outfit_name": "Bloom Poetry",
+    "outfit_chinese_name": "诗意绽放",
+    "notes": "Unofficial fan-made chibi Codex pet inspired by Nikki wearing the Bloom Poetry outfit."
+  },
+  "references": [
+    {
+      "title": "Shining Nikki Wiki - Bloom Poetry",
+      "url": "https://shining-nikki.fandom.com/wiki/Bloom_Poetry",
+      "used_for": "Primary English outfit name and Shining Nikki set details."
+    },
+    {
+      "title": "Love Nikki Wiki - Bloom of Poetry",
+      "url": "https://lovenikki.fandom.com/wiki/Bloom_of_Poetry",
+      "used_for": "Cross-game naming note; confirms Bloom of Poetry is used outside the Shining Nikki page."
+    }
+  ],
+  "redistribution": {
+    "official_art_included": false,
+    "official_logo_included": false,
+    "notes": "Repository includes only the prepared Codex pet atlas, preview assets, documentation, and validation metadata."
+  },
+  "atlas": {
+    "width": 1536,
+    "height": 1872,
+    "columns": 8,
+    "rows": 9,
+    "cell_width": 192,
+    "cell_height": 208,
+    "states": [
+      {
+        "state": "idle",
+        "row": 0,
+        "frames": 6,
+        "note": "Calm breathing and blinking loop."
+      },
+      {
+        "state": "running-right",
+        "row": 1,
+        "frames": 8,
+        "note": "Rightward drag movement."
+      },
+      {
+        "state": "running-left",
+        "row": 2,
+        "frames": 8,
+        "note": "Leftward drag movement."
+      },
+      {
+        "state": "waving",
+        "row": 3,
+        "frames": 4,
+        "note": "Friendly greeting gesture."
+      },
+      {
+        "state": "jumping",
+        "row": 4,
+        "frames": 5,
+        "note": "Small playful jump."
+      },
+      {
+        "state": "failed",
+        "row": 5,
+        "frames": 8,
+        "note": "Downcast blocked or failed reaction."
+      },
+      {
+        "state": "waiting",
+        "row": 6,
+        "frames": 6,
+        "note": "Expectant pose for user approval or help."
+      },
+      {
+        "state": "running",
+        "row": 7,
+        "frames": 6,
+        "note": "Focused active task work."
+      },
+      {
+        "state": "review",
+        "row": 8,
+        "frames": 6,
+        "note": "Reviewing completed output."
+      }
+    ]
+  },
+  "validation": {
+    "file": "dist/validation.json",
+    "ok": true,
+    "format": "WEBP",
+    "mode": "RGBA",
+    "transparent_rgb_residue_pixels": 0,
+    "errors": [],
+    "warnings": []
+  }
+}
