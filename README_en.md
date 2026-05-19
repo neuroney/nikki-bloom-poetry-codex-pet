@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="assets/previews/idle.gif" width="128" alt="Nikki Bloom idle preview">
+  <img src="assets/previews/idle.gif" width="128" alt="Nikki Bloom Poetry idle preview">
 
-  <h1>Nikki Bloom Codex Pet</h1>
+  <h1>Nikki Bloom Poetry Codex Pet</h1>
 
   <p>
     A Q-style 3D Nikki custom pet for the Codex desktop app, inspired by Nikki from <em>Shining Nikki</em> wearing her classic <em>Bloom Poetry</em> outfit, packed into Codex's fixed 8x9 pet atlas format.
@@ -57,7 +57,7 @@
 
 ## Installation
 
-Recommended: download `nikki-bloom-codex-pet-v1.0.0.zip` from Releases. After extraction, you will get the two files needed for installation:
+Recommended: download `nikki-bloom-poetry-codex-pet-v1.0.0.zip` from Releases. After extraction, you will get the two files needed for installation:
 
 ```text
 pet.json
@@ -67,7 +67,7 @@ spritesheet.webp
 Copy the two files from `dist` into your Codex custom pet directory:
 
 ```text
-$HOME/.codex/pets/nikki-bloom/
+$HOME/.codex/pets/nikki-bloom-poetry/
 ├── pet.json
 └── spritesheet.webp
 ```
@@ -75,7 +75,7 @@ $HOME/.codex/pets/nikki-bloom/
 On Windows, use:
 
 ```text
-%CODEX_HOME%\pets\nikki-bloom\
+%CODEX_HOME%\pets\nikki-bloom-poetry\
 ├── pet.json
 └── spritesheet.webp
 ```
@@ -85,7 +85,7 @@ The ready-to-use files are included here:
 - [dist/pet.json](dist/pet.json)
 - [dist/spritesheet.webp](dist/spritesheet.webp)
 
-Restart Codex and select **Nikki Bloom** from the custom pet list.
+Restart Codex and select **Nikki Bloom Poetry** from the custom pet list.
 
 ## Package Layout
 
@@ -116,7 +116,7 @@ Current release: `v1.0.0`.
 
 - Uses the complete 9-row Codex pet atlas.
 - Keeps `running-left` and `running-right` direction semantics consistent.
-- Preserves one Nikki Bloom identity across all states without text, UI, logos, or official-art screenshots.
+- Preserves one Nikki Bloom Poetry identity across all states without text, UI, logos, or official-art screenshots.
 - The root repository omits generation intermediates; `dist/` is the install package and `assets/` is for previews.
 
 Codex uses fixed frame counts per atlas row, so the final atlas fills each row according to the Codex state specification instead of forcing every state to use the same number of frames.

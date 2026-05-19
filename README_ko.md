@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="assets/previews/idle.gif" width="128" alt="Nikki Bloom idle preview">
+  <img src="assets/previews/idle.gif" width="128" alt="Nikki Bloom Poetry idle preview">
 
-  <h1>Nikki Bloom Codex Pet</h1>
+  <h1>Nikki Bloom Poetry Codex Pet</h1>
 
   <p>
     Codex 데스크톱 앱에서 사용할 수 있는 Nikki / 暖暖 팬메이드 커스텀 펫입니다. <em>Shining Nikki</em>의 대표 의상 <em>Bloom Poetry</em>（诗意绽放）에서 영감을 받아 Codex 고정 8x9 스프라이트 아틀라스 형식으로 정리했습니다.
@@ -46,7 +46,7 @@
 
 ## 설치
 
-Releases에서 `nikki-bloom-codex-pet-v1.0.0.zip`을 다운로드한 뒤 아래 두 파일을 Codex 커스텀 펫 폴더에 복사합니다.
+Releases에서 `nikki-bloom-poetry-codex-pet-v1.0.0.zip`을 다운로드한 뒤 아래 두 파일을 Codex 커스텀 펫 폴더에 복사합니다.
 
 ```text
 pet.json
@@ -54,7 +54,7 @@ spritesheet.webp
 ```
 
 ```text
-$HOME/.codex/pets/nikki-bloom/
+$HOME/.codex/pets/nikki-bloom-poetry/
 ├── pet.json
 └── spritesheet.webp
 ```
@@ -64,7 +64,7 @@ $HOME/.codex/pets/nikki-bloom/
 - [dist/pet.json](dist/pet.json)
 - [dist/spritesheet.webp](dist/spritesheet.webp)
 
-Codex를 다시 시작한 뒤 커스텀 펫 목록에서 **Nikki Bloom**을 선택하세요.
+Codex를 다시 시작한 뒤 커스텀 펫 목록에서 **Nikki Bloom Poetry**을 선택하세요.
 
 ## 크레딧
 

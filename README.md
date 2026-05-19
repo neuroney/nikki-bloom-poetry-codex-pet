@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="assets/previews/idle.gif" width="128" alt="Nikki Bloom idle preview">
+  <img src="assets/previews/idle.gif" width="128" alt="Nikki Bloom Poetry idle preview">
 
-  <h1>Nikki Bloom Codex Pet</h1>
+  <h1>Nikki Bloom Poetry Codex Pet</h1>
 
   <p>
     给 Codex 桌面端使用的 Q 版暖暖自定义宠物。灵感来自《闪耀暖暖》女主 Nikki / 暖暖穿着经典套装 <em>Bloom Poetry</em>（诗意绽放）的形象，并整理为 Codex 固定 8x9 精灵图格式。
@@ -57,7 +57,7 @@
 
 ## 安装
 
-推荐从 Releases 下载 `nikki-bloom-codex-pet-v1.0.0.zip`。解压后会得到可直接安装的两个文件：
+推荐从 Releases 下载 `nikki-bloom-poetry-codex-pet-v1.0.0.zip`。解压后会得到可直接安装的两个文件：
 
 ```text
 pet.json
@@ -67,7 +67,7 @@ spritesheet.webp
 把 `dist` 目录里的两个文件复制到你的 Codex 自定义宠物目录：
 
 ```text
-$HOME/.codex/pets/nikki-bloom/
+$HOME/.codex/pets/nikki-bloom-poetry/
 ├── pet.json
 └── spritesheet.webp
 ```
@@ -75,7 +75,7 @@ $HOME/.codex/pets/nikki-bloom/
 Windows 可放在：
 
 ```text
-%CODEX_HOME%\pets\nikki-bloom\
+%CODEX_HOME%\pets\nikki-bloom-poetry\
 ├── pet.json
 └── spritesheet.webp
 ```
@@ -85,7 +85,7 @@ Windows 可放在：
 - [dist/pet.json](dist/pet.json)
 - [dist/spritesheet.webp](dist/spritesheet.webp)
 
-重启 Codex 后，在自定义宠物列表中选择 **Nikki Bloom**。
+重启 Codex 后，在自定义宠物列表中选择 **Nikki Bloom Poetry**。
 
 ## 文件结构
 
@@ -116,7 +116,7 @@ Windows 可放在：
 
 - 使用完整 9 行 Codex pet atlas。
 - `running-left` 与 `running-right` 保持方向语义一致。
-- 所有状态保持同一 Nikki Bloom 主视觉，不加入文字、UI、Logo 或官方素材截图。
+- 所有状态保持同一 Nikki Bloom Poetry 主视觉，不加入文字、UI、Logo 或官方素材截图。
 - 根目录不包含生成中间层；`dist/` 是正式安装包，`assets/` 是预览资产。
 
 Codex atlas 使用固定帧数排布，所以正式图集按 Codex 行规格填满，而不是把所有状态强行统一成相同帧数。
