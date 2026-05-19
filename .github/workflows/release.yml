@@ -30,11 +30,29 @@ jobs:
 
           echo "ZIP_NAME=${ZIP_NAME}" >> "$GITHUB_ENV"
 
+      - name: Write release notes
+        run: |
+          cat > release-notes.md <<EOF
+          ## Nikki in Bloom Poetry Codex Pet
+
+          Q-style Nikki in Bloom Poetry pet for Codex desktop.
+
+          ## Install
+
+          Download nikki-bloom-poetry-codex-pet-${GITHUB_REF_NAME}.zip, extract it, then copy pet.json and spritesheet.webp into your Codex custom pet directory:
+
+          \`\`\`text
+          %CODEX_HOME%\pets\nikki-bloom-poetry\
+          ├── pet.json
+          └── spritesheet.webp
+          \`\`\`
+          EOF
+
       - name: Create GitHub Release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release create "$GITHUB_REF_NAME" "$ZIP_NAME" \
             --title "$GITHUB_REF_NAME" \
-            --generate-notes \
+            --notes-file release-notes.md \
             --verify-tag
